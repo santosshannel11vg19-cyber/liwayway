@@ -180,9 +180,9 @@ function Dashboard(){
   </div>
   <div className="dashboard-section-heading"><Eyebrow>AFTER YOUR SESSION</Eyebrow><h2>Takipsilim</h2><p>Reflect on your counseling experience, practice therapeutic activities, and keep track of your personal progress.</p></div>
   <div className="dashboard-cards">
-   <Link to="/follow-up"><ClipboardCheck/><b>Post-Counseling Assessment</b><span>Reflect on your feelings, learnings, coping, progress, and next-session goals</span></Link>
-   <Link to="/follow-up"><HeartHandshake/><b>Therapeutic Activities</b><span>Journaling, breathing exercise, emotional awareness, and thought reflection</span></Link>
-   <Link to="/follow-up"><TrendingUp/><b>Progress &amp; Next Session Preparation</b><span>Record improvements, ongoing challenges, and topics to discuss</span></Link>
+   <Link to="/follow-up"><ClipboardList/><b>Post-Counseling Assessment</b><span>Reflect on your feelings, learnings, coping, progress, and next-session goals</span></Link>
+   <Link to="/follow-up"><Heart/><b>Therapeutic Activities</b><span>Journaling, breathing exercise, emotional awareness, and thought reflection</span></Link>
+   <Link to="/follow-up"><Sprout/><b>Progress &amp; Next Session Preparation</b><span>Record improvements, ongoing challenges, and topics to discuss</span></Link>
    <Link to="/journal"><NotebookPen/><b>Tala at Saloobin Journal</b><span>Write privately, use optional prompts, and manage saved entries</span></Link>
   </div>
   <div className="dashboard-section-heading"><Eyebrow>YOUR RECORDS</Eyebrow><h2>Personal activity and history</h2></div>
