@@ -114,3 +114,20 @@
 }
 .service-detail ol li{padding-left:2px;margin:0 0 3px}
 .service-detail ol li b{color:#66574d;font-weight:700}
+
+
+/* Liwayway Space: clear grouping for forms, reflections, and account history */
+.dashboard-section-heading{margin:42px 0 18px;max-width:720px}
+.dashboard-section-heading h2{font:600 clamp(23px,3vw,31px) 'Playfair Display',serif;color:#51443b;margin:8px 0}
+.dashboard-section-heading p{font-size:12px;line-height:1.8;color:var(--muted);margin:0}
+.dashboard-history-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:18px}
+.dashboard-history{min-width:0;padding:22px;border:1px solid var(--line);border-radius:16px;background:#fffdfa}
+.dashboard-history h3{font:600 18px 'Playfair Display',serif;margin:0 0 14px;color:#51443b}
+.dashboard-history .appointment-row{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;padding:12px 0;border-bottom:1px solid var(--line);font-size:11px}
+.dashboard-history .appointment-row b{font-weight:600;line-height:1.6}
+.dashboard-history .appointment-row span{flex-shrink:0;color:#bd7958}
+.dashboard-history .text-link{display:inline-flex;margin-top:14px}
+.dashboard-bottom-links{display:flex;flex-wrap:wrap;gap:18px;margin-top:30px;padding-top:22px;border-top:1px solid var(--line)}
+.dashboard-bottom-links a{color:#bd7958;font-size:12px;text-decoration:underline;text-underline-offset:3px}
+.journal-prompt .btn{margin-top:10px}
+@media(max-width:680px){.dashboard-history-grid{grid-template-columns:1fr}.dashboard-history{padding:17px}.dashboard-history .appointment-row{flex-direction:column;gap:4px}.dashboard-bottom-links{gap:12px}}
