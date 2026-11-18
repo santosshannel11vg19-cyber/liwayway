@@ -4,3 +4,49 @@
 @media(max-width:680px){.nav-wrap{padding:12px 18px}.menu-btn{display:block}.nav{display:none;position:absolute;top:68px;left:0;right:0;background:#fffdf8;padding:20px;box-shadow:0 15px 20px #4a38200e;flex-direction:column;align-items:stretch;font-size:13px}.nav.open{display:flex}.nav-cta{justify-content:center}.hero{grid-template-columns:1fr;padding:55px 23px 45px;gap:15px}.hero h1{font-size:53px}.hero-art{height:320px;order:-1}.sun-disc{width:255px}.sun-core{width:115px;height:115px}.sun-core svg{width:70px}.note-one{left:3%;top:12%}.note-two{right:0;bottom:9%}.leaf-one{left:2%;bottom:12%}.leaf-two{right:2%;top:8%}.trust-strip{gap:12px;flex-wrap:wrap;font-size:9px}.intro-grid,.two-col,.split-feature,.events-preview,.professional-section,.journal-layout,.contact-grid{grid-template-columns:1fr;gap:28px}.section{padding:58px 22px}.service-grid,.team-grid,.shared-grid,.resources-grid,.mission-grid,.values-grid{grid-template-columns:1fr}.service-card{min-height:unset}.service-card p{min-height:unset}.feature-illustration{height:240px;max-width:100%}.page-hero{padding:55px 23px;min-height:unset}.page-hero h1{font-size:45px}.page-hero-sun{width:90px;height:90px;align-self:flex-start;margin:0;opacity:.45}.page-hero-sun svg{width:48px}.service-detail{grid-template-columns:42px 1fr;gap:15px;padding:30px 0}.detail-number{font-size:26px}.detail-art{display:none}.community-cta{flex-wrap:wrap;padding:23px}.community-cta .btn{width:100%}.events-preview{padding-top:60px}.form-page{grid-template-columns:1fr}.form-aside{padding:38px 25px}.form-sun{width:70px;height:70px;margin-bottom:25px}.form-sun svg{width:40px}.form-aside h2{font-size:33px;margin:12px 0}.form-page>.form-card{width:calc(100% - 34px);margin:20px auto 40px;padding:25px}.form-grid{grid-template-columns:1fr}.form-card{padding:25px}.form-heading h1{font-size:39px}.dashboard-cards{grid-template-columns:1fr}.dashboard-top{align-items:flex-start;gap:12px;flex-direction:column}.footer-main{grid-template-columns:1fr 1fr;gap:30px}.footer-main>div:first-child{grid-column:1/-1}.footer-bottom{flex-direction:column}.event-row{gap:12px}.event-date{width:49px;height:54px}.event-details h3{font-size:15px}.quote-band p{font-size:22px}}
 
 .partner-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.partner-card{background:#fffdfa;border:1px solid #efe4d8;border-radius:15px;padding:20px}.partner-card b{font:17px 'Playfair Display',serif}.partner-card p{font-size:10px;line-height:1.7}.journal-actions{display:flex;gap:8px;margin-top:10px}.journal-actions .btn{padding:8px 14px;font-size:10px}@media(max-width:680px){.partner-grid{grid-template-columns:1fr 1fr}}
+
+
+/* Assessment layout refinements: keep the source questionnaire readable and evenly spaced. */
+.form-layout{max-width:1124px;padding-top:76px;padding-bottom:88px}
+.form-heading{margin-bottom:42px}
+.form-card.wide{max-width:790px;padding:42px 46px}
+.assessment-form{display:flex;flex-direction:column;gap:0}
+.assessment-instructions{background:#fff8ed;border:1px solid #f0e4d6;border-radius:12px;padding:17px 20px;margin-bottom:24px;color:#78695e}
+.assessment-instructions b{font:600 16px 'Playfair Display',serif;color:var(--ink)}
+.assessment-instructions p{margin:6px 0 0;font-size:12px;line-height:1.75}
+.assessment-question{border:0;border-bottom:1px solid var(--line);padding:0 0 23px;margin:0 0 24px;min-width:0}
+.assessment-question legend{display:block;width:100%;padding:0;margin:0 0 13px;font-size:13px;line-height:1.6;font-weight:700;color:#594a40}
+.question-hint{font-size:11px;margin:0 0 12px;color:var(--muted)}
+.assessment-options{display:grid;grid-template-columns:1fr 1fr;gap:10px 18px}
+.assessment-option{display:flex;align-items:flex-start;gap:10px;min-width:0;padding:10px 12px;border:1px solid #f0e7dc;border-radius:10px;background:#fffefa;font-size:12px;line-height:1.55;color:#76675c;cursor:pointer}
+.assessment-option:hover{border-color:#e5b69a;background:#fff9f3}
+.assessment-option input{width:16px!important;height:16px;flex:0 0 16px;margin:1px 0 0;accent-color:#d88d66}
+.assessment-option span{min-width:0;overflow-wrap:anywhere}
+.assessment-question .field{margin:0}
+.assessment-question .field>span{font-size:12px;line-height:1.6}
+.assessment-question .field textarea,.assessment-subsection .field textarea{width:100%;border:1px solid #e9ded1;border-radius:10px;padding:13px 14px;background:#fffefa;color:#51453d;font-size:12px;line-height:1.7;resize:vertical}
+.assessment-question .field textarea:focus,.assessment-subsection .field textarea:focus{outline:none;border-color:#d99a75;box-shadow:0 0 0 3px #f9e9df}
+.other-answer{max-width:420px;margin-top:12px!important}
+.assessment-subsection{padding:27px 0 10px;border-bottom:1px solid var(--line);margin-bottom:20px}
+.assessment-subsection h2{font:600 25px 'Playfair Display',serif;margin:0 0 7px}
+.assessment-subsection>p{font-size:12px;line-height:1.7;margin:0 0 20px}
+.activity-card{padding:20px;margin:0 0 15px;background:#fff9f1;border:1px solid #f0e5d8;border-radius:13px}
+.activity-card h3{font:600 17px 'Playfair Display',serif;margin:0 0 7px;color:#6a5547}
+.activity-card p,.activity-card li{font-size:11px;line-height:1.75;color:var(--muted)}
+.activity-card ul,.activity-card ol{padding-left:20px;margin:8px 0 15px}
+.activity-card .field{margin:12px 0 0}
+.assessment-ack{align-items:flex-start;margin:20px 0}
+.assessment-ack input{width:16px;flex:0 0 16px;margin-top:2px}
+.assessment-next{font-size:11px;line-height:1.7;color:var(--muted);margin:17px 0 0}
+.assessment-next a{color:#c77b59;font-weight:700;text-decoration:underline}
+.assessment-form>.btn{align-self:flex-start;min-width:190px}
+.assessment-form .form-message{margin-top:16px}
+@media(max-width:680px){
+ .form-layout{padding:55px 18px 65px}
+ .form-heading{margin-bottom:28px}
+ .form-heading h1{font-size:38px}
+ .form-card.wide{padding:25px 20px}
+ .assessment-options{grid-template-columns:1fr;gap:8px}
+ .assessment-question{padding-bottom:19px;margin-bottom:20px}
+ .assessment-subsection h2{font-size:23px}
+}
