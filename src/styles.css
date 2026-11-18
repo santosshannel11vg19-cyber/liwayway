@@ -102,3 +102,15 @@
  .nav{gap:7px}
  .nav>a:not(.nav-cta){padding:11px 8px}
 }
+
+
+/* Match the Liwanag ng Araw session steps to the surrounding service copy. */
+.service-detail ol{
+ padding-left:18px;
+ margin:12px 0 22px;
+ color:#87766b;
+ font-size:11px;
+ line-height:2;
+}
+.service-detail ol li{padding-left:2px;margin:0 0 3px}
+.service-detail ol li b{color:#66574d;font-weight:700}
