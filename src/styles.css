@@ -78,3 +78,27 @@
 .events-preview-lists .event-details h3{font-size:14px}
 .events-preview-lists .event-details>small{font-size:8px}
 @media(max-width:680px){.events-preview-lists{gap:22px}}
+
+
+/* Refined hero tagline and safer spacing between navigation links */
+.hero h1{
+ font-size:clamp(36px,4.15vw,54px);
+ line-height:1.19;
+ letter-spacing:-.028em;
+ max-width:520px;
+ text-wrap:balance;
+ color:#51443b;
+}
+.nav{gap:25px}
+.nav>a:not(.nav-cta){display:inline-flex;align-items:center;padding:9px 5px;white-space:nowrap}
+.nav-cta{margin-left:3px;white-space:nowrap}
+@media(max-width:900px){
+ .nav{gap:13px}
+ .nav>a:not(.nav-cta){padding:9px 3px}
+ .hero h1{font-size:clamp(36px,4.5vw,48px)}
+}
+@media(max-width:680px){
+ .hero h1{font-size:clamp(35px,9vw,43px);line-height:1.2}
+ .nav{gap:7px}
+ .nav>a:not(.nav-cta){padding:11px 8px}
+}
