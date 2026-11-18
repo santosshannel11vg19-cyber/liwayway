@@ -68,3 +68,13 @@
 .journal-prompt p{font:italic 14px/1.65 'Playfair Display',serif;margin:6px 0 0}
 .events-heading p{font-size:12px;line-height:1.7;color:var(--muted);margin:8px 0 0}
 @media(max-width:680px){.journal-prompt-tools{align-items:flex-start;flex-direction:column}.journal-prompt-tools .btn{width:100%}.brand small{max-width:180px}}
+
+.events-preview-lists{display:grid;grid-template-columns:1fr;gap:24px;min-width:0}
+.events-preview-lists>div{min-width:0}
+.events-preview-lists h3{font:600 17px 'Playfair Display',serif;margin:0 0 10px}
+.events-preview-lists .event-row{padding:13px 0;gap:12px}
+.events-preview-lists .event-date{width:46px;height:50px}
+.events-preview-lists .event-date b{font-size:22px}
+.events-preview-lists .event-details h3{font-size:14px}
+.events-preview-lists .event-details>small{font-size:8px}
+@media(max-width:680px){.events-preview-lists{gap:22px}}
