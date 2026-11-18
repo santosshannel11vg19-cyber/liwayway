@@ -171,19 +171,14 @@ function Dashboard(){
  const dateLabel=value=>value?new Date(value).toLocaleDateString(undefined,{year:'numeric',month:'short',day:'numeric'}):'Date unavailable';
  return <section className="section dashboard"><Eyebrow>YOUR LIWAYWAY SPACE</Eyebrow><h1>A little space for <em>you.</em></h1>{!user?<div className="empty-state"><LogIn/><p>Please sign in to view your personal Liwayway Space, forms, and saved records.</p><Link className="btn btn-primary" to="/login">Sign in</Link><p>New here? <Link to="/register">Create an account</Link></p></div>:<>
   <div className="dashboard-top"><p>Signed in as <b>{user.email}</b></p><button className="btn btn-outline" onClick={logout}><LogOut size={16}/> Sign out</button></div>
-  <div className="dashboard-section-heading"><Eyebrow>BEFORE AND DURING YOUR SESSION</Eyebrow><h2>Bukang Liwayway &amp; Liwanag ng Araw</h2><p>Complete the forms connected to your counseling journey and review your appointment requests.</p></div>
+  <div className="dashboard-section-heading"><Eyebrow>YOUR LIWAYWAY TOOLS</Eyebrow><h2>Your forms and personal space</h2><p>Access the forms and resources you need throughout your Liwayway journey.</p></div>
   <div className="dashboard-cards">
-   <Link to="/assessment"><ClipboardList/><b>Initial Assessment</b><span>Emotional check-in and personal concerns before your session</span></Link>
-   <Link to="/appointment"><CalendarDays/><b>Appointment Form</b><span>Choose a preferred professional, consultation type, date, and format</span></Link>
-   <Link to="/privacy"><ShieldCheck/><b>Privacy Notice &amp; Informed Consent</b><span>Review how information is handled and the consent notice</span></Link>
+   <Link to="/assessment"><ClipboardList/><b>Initial Assessment</b><span>Complete your emotional check-in and share your concerns before counseling</span></Link>
+   <Link to="/appointment"><CalendarDays/><b>Appointment Form</b><span>Choose your preferred professional, consultation type, date, and format</span></Link>
+   <Link to="/follow-up"><ClipboardList/><b>Post-Counseling Assessment</b><span>Reflect on your counseling experience, learnings, coping, progress, and next steps</span></Link>
+   <Link to="/journal"><NotebookPen/><b>Tala at Saloobin Journal</b><span>Write privately, use optional writing prompts, and manage your saved entries</span></Link>
+   <Link to="/privacy"><ShieldCheck/><b>Privacy Notice &amp; Informed Consent</b><span>Review how your information is handled</span></Link>
    <Link to="/events"><Users/><b>Events &amp; Lightalk</b><span>Explore community events and webinar sessions</span></Link>
-  </div>
-  <div className="dashboard-section-heading"><Eyebrow>AFTER YOUR SESSION</Eyebrow><h2>Takipsilim</h2><p>Reflect on your counseling experience, practice therapeutic activities, and keep track of your personal progress.</p></div>
-  <div className="dashboard-cards">
-   <Link to="/follow-up"><ClipboardList/><b>Post-Counseling Assessment</b><span>Reflect on your feelings, learnings, coping, progress, and next-session goals</span></Link>
-   <Link to="/follow-up"><Heart/><b>Therapeutic Activities</b><span>Journaling, breathing exercise, emotional awareness, and thought reflection</span></Link>
-   <Link to="/follow-up"><Sprout/><b>Progress &amp; Next Session Preparation</b><span>Record improvements, ongoing challenges, and topics to discuss</span></Link>
-   <Link to="/journal"><NotebookPen/><b>Tala at Saloobin Journal</b><span>Write privately, use optional prompts, and manage saved entries</span></Link>
   </div>
   <div className="dashboard-section-heading"><Eyebrow>YOUR RECORDS</Eyebrow><h2>Personal activity and history</h2></div>
   <div className="dashboard-history-grid">
