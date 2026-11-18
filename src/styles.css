@@ -50,3 +50,21 @@
  .assessment-question{padding-bottom:19px;margin-bottom:20px}
  .assessment-subsection h2{font-size:23px}
 }
+
+
+/* Consistent consent, journal prompt, and page navigation refinements */
+.consent-check{display:flex;align-items:flex-start;gap:12px;width:100%;margin:16px 0 22px;font-size:11px;line-height:1.7}
+.consent-check>input{display:block;flex:0 0 16px;width:16px;height:16px;margin:2px 0 0;accent-color:#d88d66}
+.consent-check>span{display:block;flex:1;min-width:0}
+.consent-check a{display:inline;color:#bd7958;text-decoration:underline;font-weight:700}
+.brand{max-width:100%}
+.brand small{max-width:250px;white-space:normal;line-height:1.35}
+.journal-prompt-tools{display:flex;justify-content:space-between;align-items:center;gap:15px;padding:16px;margin:8px 0 14px;border:1px solid var(--line);border-radius:13px;background:#fff9f1}
+.journal-prompt-tools .eyebrow{font-size:9px}
+.journal-prompt-tools p{font-size:11px;line-height:1.6;color:var(--muted);margin:5px 0 0}
+.journal-prompt-tools .btn{flex-shrink:0;padding:11px 15px;font-size:10px}
+.journal-prompt{padding:14px 16px;margin:0 0 15px;border-radius:11px;background:#f8e9d9;color:#725b4a}
+.journal-prompt b{font-size:11px}
+.journal-prompt p{font:italic 14px/1.65 'Playfair Display',serif;margin:6px 0 0}
+.events-heading p{font-size:12px;line-height:1.7;color:var(--muted);margin:8px 0 0}
+@media(max-width:680px){.journal-prompt-tools{align-items:flex-start;flex-direction:column}.journal-prompt-tools .btn{width:100%}.brand small{max-width:180px}}
